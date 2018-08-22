@@ -228,6 +228,6 @@ module NotificationsHelper
   end
 
   def display_subject?
-    Octobox.config.fetch_subject
+    Octobox.config.display_subject
   end
 end
